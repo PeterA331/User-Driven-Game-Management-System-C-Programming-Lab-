@@ -1,21 +1,3 @@
-/*Test Code: försöker läsa från textfil och lagra data i structars-medlemmar..
-..1- Nu kan koden läsa från fil och lagra inlästa datan i structar-medlemmar..
-..2- Koden har en funktion som läser från filen(Read_From_File), det finns bland annat ett litet..
-.. test i main-funktion..
-..3-koden nu checkar om användaren finns i filen eller ej..
-..4- Försöker att lägga till ett spel till användarens-spellista..(lyckats, men det behövs att kontrollera..
-.. att betyget är mellan (1-10))..
-..5- Lyckats skriva till Ratin2.txt efter att användare har lagt till ett spel
-..6- Försöker implementera Start och startmenyn sidan:2,3 i lab-instruktioner(Lyckats)..
-..7- Programmet kan tilläga en ny användare(user) via aminstratör..
-..8- Försöker tillämpa adminstratör möjligheter(print,add user, remove user..), (pågår)
-..8-a-Lyckats kunna lägga till en nyanvändare(user)-lyckats
-..8-b-försöker ta bort(Remove) användar(User)-lyckats 
-
-..9-a- implementera användaren lista,(add game ), (lyckats)..
-..10- fixar Read fom file funktion (lyckats).. + implementera Användar-meny, (Remove game), (lyckats)
-..11- sortera usernames i bokstavordning(lyckats)..
-..12- print ut user-Lista med spel i bokstavordning efter usernames,(pågår)..*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
