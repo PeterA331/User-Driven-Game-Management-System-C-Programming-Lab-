@@ -1,21 +1,3 @@
-/*---Test Code: attempting to read from a text file and store data in struct members..
-..1- The code can now read from a file and store the read data in struct members..
-..2- The code has a function that reads from the file (Read_From_File), there is also a small..
-.. test in the main function..
-..3- The code now checks if the user exists in the file or not..
-..4- Attempting to add a game to the user's game list..(successful, but it needs to check..
-.. that the rating is between (1-10))..
-..5- Successfully wrote to Rating2.txt after a user added a game.
-..6- Attempting to implement the Start and start menu page:2,3 in lab instructions(Successful)..
-..7- The program can add a new user via the administrator..
-..8- Attempting to apply administrator capabilities(print, add user, remove user..), (in progress)
-..8-a-Successfully able to add a new user-successful
-..8-b-attempting to remove(Remove) user(User)-successful
-
-..9-a- implement the user list,(add game), (successful)..
-..10- fixes Read from file function (successful).. + implement User-menu, (Remove game), (successful)
-..11- sort usernames in alphabetical order(successful)..
-..12- print out user-List with games in alphabetical order by usernames,(in progress)..*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -915,3 +897,4 @@ void print_UserLista(USERS *pp){
    }
    //printf("number of spel: %d\n",pp->nbOfspel); // Debug print                               
 }
+
